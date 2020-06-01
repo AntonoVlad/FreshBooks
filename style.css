@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+ul li {
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+
+    /*background-color: blue;*/
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.header-call {
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.header-text {
+    font-size: 15px;
+    padding-right: 30px;
+}
+
+.logo {
+    height: 100px;
+    width: 10%;
+    margin-left: 50px;
+}
+
+.header-logo {
+    display: flex;
+    height: 100%;
+    width: 130px;
+}
+
+.header-btn-all {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 45%;
+}
+
+.header-btn-free,
+.header-btn-login {
+    border: solid white;
+    color: wheat;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.header-btn-free {
+    width: 350px;
+    background-color: green;
+}
+
+.header-btn-login {
+    width: 100px;
+    background-color:dimgrey;
+}
+
+.header-info {
+    display: flex;
+
+    font-size: 12px;
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    height: 40px;
+    border-radius: 8px;
+    margin: 0px 20px;
+
+}
+
+.header-nav-leftcol,
+.header-nav-rightcol {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+
+
+}
+
+.header-nav-leftcol button,
+.header-nav-rightcol button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-right: 1px solid black;
+    font-size: 16px;
+
+}
+
+.header-nav-rightcol button {
+    border: none;
+}
+
+
+
+
+
