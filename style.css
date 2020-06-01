@@ -2,15 +2,44 @@ body {
     margin: 0;
 }
 
-ul li {
+ul {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
 
+ul li {
+    display: flex;
+    list-style: none;
+
+}
+
+
+ul li:nth-child(1) {
+    margin-right: 5px;
+}
+
+ul li:nth-child(1)::after {
+    position: relative;
+    content:"";
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    background: black;
+    margin-left: 5px;
+    top: 2px;
+
+}
+.header-all {
+    padding: 10px 10px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     height: 100px;
-    width: 100%;
+    padding: 0px 20px;
+
 
     /*background-color: blue;*/
 }
@@ -37,7 +66,6 @@ ul li {
 .logo {
     height: 100px;
     width: 10%;
-    margin-left: 50px;
 }
 
 .header-logo {
@@ -49,15 +77,16 @@ ul li {
 .header-btn-all {
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    align-items: flex-end;
     height: 100px;
     width: 45%;
 }
 
 .header-btn-free,
 .header-btn-login {
-    border: solid white;
+    border: none;
     color: wheat;
     height: 40px;
     border-radius: 8px;
@@ -73,9 +102,13 @@ ul li {
     background-color:dimgrey;
 }
 
+.header-btn-wrapper {
+
+}
+
 .header-info {
     display: flex;
-
+    align-items: flex-start;
     font-size: 12px;
 
 }
@@ -86,15 +119,14 @@ ul li {
     background-color: blue;
     height: 40px;
     border-radius: 8px;
-    margin: 0px 20px;
+    overflow: hidden;
 
 }
 
 .header-nav-leftcol,
 .header-nav-rightcol {
     display: flex;
-    justify-content: space-around;
-    width: 40%;
+
 
 
 }
@@ -109,6 +141,7 @@ ul li {
     border: none;
     border-right: 1px solid black;
     font-size: 16px;
+    padding: 0px 20px;
 
 }
 
