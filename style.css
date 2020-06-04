@@ -196,7 +196,8 @@ ul li:nth-child(1)::after {
 .features-text {
     display: flex;
     align-items: center;
-    font-size: 1.1em;
+    color: white;
+    font-size: 1.2em;
 }
 
 .features-btn {
