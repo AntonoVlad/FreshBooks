@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-size: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul {
@@ -57,7 +58,7 @@ ul li:nth-child(1)::after {
 .header-call {
     display: flex;
     justify-content: center;
-    font-size: 1.4em;
+    font-size: 1.3em;
 
 }
 
@@ -89,7 +90,7 @@ ul li:nth-child(1)::after {
 .header-btn-login {
     white-space: nowrap;
     border: none;
-    color: wheat;
+    color: white;
     height: 25px;
     border-radius: 4px;
     font-size: 1em;
@@ -98,11 +99,11 @@ ul li:nth-child(1)::after {
 }
 
 .header-btn-free {
-    background-color: green;
+    background-color: #91C622;
 }
 
 .header-btn-login {
-    background-color:dimgrey;
+    background-color:#A5A5A5;
 }
 
 .header-btn-wrapper {
@@ -115,7 +116,7 @@ ul li:nth-child(1)::after {
 .header-info {
     display: flex;
     align-items: flex-start;
-    font-size: 1.2em;
+    font-size: 1.1em;
 
 }
 
@@ -144,12 +145,12 @@ ul li:nth-child(1)::after {
     display: flex;
     text-align: center;
     align-items: center;
-    background-color: blue;
+    background-color: #0D83DD;
     color: white;
     border: none;
     font-size: 1em;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid dodgerblue;
     flex: 1;
     overflow: hidden;
 
@@ -163,21 +164,30 @@ ul li:nth-child(1)::after {
 
 
 .features {
-    border: solid blue;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0D83DD;
     border-radius: 4px;
     margin: 0px 10px;
     height: 180px;
+
 
 }
 
 .features-wrapper {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    padding: 10px;
+    flex: 1;
 
 }
 
 .features-title {
     display: flex;
+
     font-size: 1.5em;
     color: white;
 
@@ -197,15 +207,23 @@ ul li:nth-child(1)::after {
 
 }
 
+
 .features-btn-free button {
-    background-color: green;
+    background-color: #91C622;
     color: white;
     height: 25px;
-    box-shadow: 0px 0px 3px 0px black;
+    box-shadow: 0px 0px 2px 0px black,
+    inset 0px 2px 10px 0px yellowgreen;
     white-space: nowrap;
     border: none;
     font-size: 1em;
-    border-radius: 4px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.features-btn-free a {
+    margin-left: 5px;
+    color: white;
 }
 
 .features-sponsor-btn {
@@ -213,6 +231,7 @@ ul li:nth-child(1)::after {
     justify-content: space-between;
     height: 30px;
     background-color: darkblue;
+    opacity: 0.2;
 
 }
 
@@ -254,6 +273,7 @@ ul li:nth-child(1)::after {
 }
 
 .work-btn {
+    margin-top: 10px;
     display: flex;
     justify-content: flex-end;
 
