@@ -289,6 +289,84 @@ ul li:nth-child(1)::after {
 
 @media (min-width: 768px) {
 
+    /*-----header-----*/
+    .header-btn-all {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-title {
+        font-size: 1.8em;
+    }
+
+    .header-logo {
+        width: 120px;
+    }
+
+    .header-nav {
+
+    }
+
+    .header-nav-leftcol button,
+    .header-nav-rightcol button {
+        display: flex;
+        justify-content: center;
+        font-size: 1.4em;
+    }
+
+    .header-btn-free {
+        font-size: 1.4em;
+    }
+
+    .header-btn-login {
+        font-size: 1.4em;
+    }
+
+    .header-info {
+        font-size: 1.3em;
+    }
+
+
+/*------features------*/
+
+    .features-title {
+        font-size: 1.7em;
+    }
+
+    .features-text {
+        font-size: 1.3em;
+    }
+
+    .features-sponsor-btn {
+        height: 35px;
+    }
+
+    .features-btn-free button {
+        font-size: 1.4em;
+    }
+
+    .features-sponsor-btn button {
+       font-size: 1.5em;
+    }
+
+    .features-btn-free a {
+        font-size: 1.3em;
+    }
+
+/*-----work-----*/
+
+    .work-title {
+        font-size: 1.9em;
+    }
+
+    .work-text {
+        font-size: 1.7em;
+    }
+
+    .work-btn button {
+        font-size: 1.7em;
+    }
+
 }
 
 @media (min-width: 1280px) {
