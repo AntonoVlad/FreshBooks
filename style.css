@@ -120,6 +120,10 @@ ul li:nth-child(1)::after {
 
 }
 
+.header-info a {
+    white-space: nowrap;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -373,6 +377,192 @@ ul li:nth-child(1)::after {
     body {
         font-size: 20px;
     }
+
+    ul li:nth-child(1)::after {
+        position: relative;
+        content:"";
+        display: inline-block;
+        width: 2px;
+        height: 13px;
+        background: black;
+        margin-left: 5px;
+        top: 2px;
+    }
+
+    .logo {
+
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 25px;
+    }
+
+
+    .header-title {
+        display: flex;
+
+        font-size: 1.5em;
+
+
+    }
+
+    .header-call {
+        font-size: 0.9em;
+    }
+
+    .header-text {
+        font-size: 0.6em;
+    }
+
+    .header-btn-all {
+        display: flex;
+
+
+    }
+
+    .header-btn-wrapper {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .header-btn-free,
+    .header-btn-login {
+        font-size: 0.8em;
+        margin-left: 10px;
+
+
+    }
+
+    .header-info {
+        display: flex;
+        font-size: 0.7em;
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-color: #0D83DD;
+        margin: 0;
+
+    }
+
+    .header-nav-leftcol,
+    .header-nav-rightcol {
+        height: 35px;
+        width: 40%;
+
+    }
+
+    .header-nav-leftcol button {
+        border-right: 1px solid black;
+    }
+
+    .header-nav-rightcol button {
+        border: none;
+    }
+
+    .header-nav-leftcol button,
+    .header-nav-rightcol button {
+        display: flex;
+        text-align: center;
+
+        font-size: 0.8em;
+    }
+
+/*-----features------*/
+
+    .features {
+        height: 300px;
+
+    }
+
+    .features-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: justify;
+        margin: 10px 10px;
+        width: 40%;
+
+    }
+
+    .features-title {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.7em;
+
+    }
+
+    .features-text {
+        font-size: 0.6em;
+        width: 50%;
+
+    }
+
+    .features-btn-free em {
+        font-size: 0.6em;
+        color: white;
+    }
+
+
+    .features-btn-free button {
+        font-size: 0.8em;
+    }
+
+    .features-btn-free a {
+        font-size: 0.7em;
+    }
+
+    .features-sponsor-btn {
+        height: 40px;
+    }
+
+    .features-sponsor-btn button {
+        font-size: 1em;
+    }
+
+
+/*------work------*/
+
+    .work {
+       display: flex;
+    }
+
+    .work-wrapper {
+        padding: 20px 20px;
+        height: 200px;
+        margin: 0;
+
+    }
+
+    .work-title {
+        font-size: 1.3em;
+
+    }
+
+    .work-text {
+        font-size: 0.8em;
+    }
+
+    .work-text a {
+        font-size: 0.9em;
+    }
+
+
+    .work-btn {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .work-btn button {
+        font-size: 0.7em;
+        background-color: #CAEAFF;
+    }
+
 }
 
 
